@@ -12,5 +12,14 @@ namespace MCD_EnumNedir
     {
         ArrayList sanalDB = new ArrayList();
 
+        public musteriReturnValue musteriYeniKayit(Musteri m)
+        {
+            // parametre Kontrol
+
+            //kayıt kontrol
+
+            sanalDB.Add(m);
+            return musteriReturnValue.kayitBasarili;
+        }
     }
 }
